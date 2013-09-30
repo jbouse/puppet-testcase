@@ -1,0 +1,46 @@
+--
+siteA:
+  version: '31544'
+  app_id: '765735'
+  app_key: 'e903f773c2'
+  aws_bucket: 'test-siteA'
+  components:
+    - common: '31544'
+    - awsphp: '22550'
+    - facebook: '22550'
+    - phpexcel: '22550'
+    - sly: '31544'
+    - tinymce: '23172'
+    - twitter: '24328'
+    - zend: '22550'
+
+siteB:
+  version: '31039'
+  app_id: '765735'
+  app_key: 'e903f773c2'
+  aws_bucket: 'test-siteB'
+  components:
+    - common: '31039'
+    - awsphp: '22550'
+    - facebook: '22550'
+    - phpexcel: '22550'
+    - sly: '31039'
+    - tinymce: '23172'
+    - twitter: '24328'
+    - zend: '22550'
+
+siteC:
+  version: '31319'
+  app_id: '765735'
+  app_key: 'e903f773c2'
+  aws_bucket: 'test-siteC'
+  components:
+    - common: '31319'
+    - awsphp: '22550'
+    - facebook: '22550'
+    - phpexcel: '22550'
+    - sly: '31319'
+    - tinymce: '23172'
+    - twitter: '24328'
+    - zend: '22550'
+

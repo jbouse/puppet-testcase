@@ -1,4 +1,4 @@
-# == Class: testcase
+# == Define: testcase::site
 #
 # === Parameters
 #
@@ -10,5 +10,5 @@
 #
 # === Copyright
 #
-class testcase {
+define testcase::site {
 }
