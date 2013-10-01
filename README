@@ -1,6 +1,16 @@
 testcase
 
-This is the testcase module.
+This testcase module should deploy the contents of the `data/deployment.yaml` to
+a base directory (/opt/testcase) that should be able to be defined. Each site
+should be installed under a `sites/` subdirectory with a `current/` symlink to the
+current version deployed. The components should be deployed under a `components/`
+subdirectory and the version of the component the site requires symlinked.
+
+The final directory try should look something along the lines of that shown in
+the `Deployment` file. The components & sites sub-directory names are static but the
+base directory can change as will the site names and component names. The whole module
+should be able to handle any number of sites with any number of components declared.
+
 
 License
 -------
@@ -9,6 +19,7 @@ License
 Contact
 -------
 
+Jeremy T. Bouse <Jeremy.Bouse@UnderGrid.net
 
 Support
 -------

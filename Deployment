@@ -1,0 +1,56 @@
+/opt/
+└── testcase
+    ├── components
+    │   ├── awsphp
+    │   │   └── 22550
+    │   ├── common
+    │   │   ├── 31039
+    │   │   ├── 31319
+    │   │   └── 31544
+    │   ├── facebook
+    │   │   └── 22550
+    │   ├── phpexcel
+    │   │   └── 22550
+    │   ├── sly
+    │   │   ├── 31039
+    │   │   ├── 31319
+    │   │   └── 31544
+    │   ├── tinymce
+    │   │   └── 23172
+    │   ├── twitter
+    │   │   └── 24328
+    │   └── zend
+    └── sites
+        ├── siteA
+        │   ├── 31544
+        │   │   ├── awsphp -> /opt/testcase/components/awsphp/22550
+        │   │   ├── common -> /opt/testcase/common/31544
+        │   │   ├── facebook -> /opt/testcase/components/facebook/22550
+        │   │   ├── phpexcel -> /opt/testcase/components/phpexcel/22550
+        │   │   ├── sly -> /opt/testcase/sly/31544
+        │   │   ├── tinymce -> /opt/testcase/tinymce/23172
+        │   │   ├── twitter -> /opt/testcase/twitter/24328
+        │   │   └── zend -> /opt/testcase/components/zend/22550
+        │   └── current -> 31544
+        ├── siteB
+        │   ├── 31039
+        │   │   ├── awsphp -> /opt/testcase/components/awsphp/22550
+        │   │   ├── common -> /opt/testcase/common/31039
+        │   │   ├── facebook -> /opt/testcase/components/facebook/22550
+        │   │   ├── phpexcel -> /opt/testcase/components/phpexcel/22550
+        │   │   ├── sly -> /opt/testcase/sly/31039
+        │   │   ├── tinymce -> /opt/testcase/tinymce/23172
+        │   │   ├── twitter -> /opt/testcase/twitter/24328
+        │   │   └── zend -> /opt/testcase/components/zend/22550
+        │   └── current -> 31039
+        └── siteC
+            ├── 31319
+            │   ├── awsphp -> /opt/testcase/components/awsphp/22550
+            │   ├── common -> /opt/testcase/common/31319
+            │   ├── facebook -> /opt/testcase/components/facebook/22550
+            │   ├── phpexcel -> /opt/testcase/components/phpexcel/22550
+            │   ├── sly -> /opt/testcase/sly/31319
+            │   ├── tinymce -> /opt/testcase/tinymce/23172
+            │   ├── twitter -> /opt/testcase/twitter/24328
+            │   └── zend -> /opt/testcase/components/zend/22550
+            └── current -> 31319
